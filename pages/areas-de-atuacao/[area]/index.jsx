@@ -4,10 +4,6 @@ import { useRouter } from "next/router";
 
 import styles from "./Area.module.css";
 
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 
@@ -21,7 +17,6 @@ var index = 0;
 const AreaItem = () => {
   const [areaItem, setAreaItem] = useState(null);
   const [areaData, setAreaData] = useState(null);
-  const [areaAtuacao, setAreaAtuacao] = useState(null);
   const [loading, setLoading] = useState(false);
   const router = useRouter();
   const { area } = router.query;

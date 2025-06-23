@@ -44,9 +44,9 @@ export const OccupationSection = () => {
           <div className={styles.areasContainer}>
             <Swiper
               ref={swiperRef}
-              loop={true} // Habilita o loop infinito
+              loop={true}
               speed={600}
-              rewind={false} // Desabilita o rewind
+              rewind={false}
               modules={[Controller, Navigation]}
               navigation={{
                 prevEl: navigationPrevRef.current,
@@ -63,7 +63,7 @@ export const OccupationSection = () => {
                 480: { slidesPerView: 2, spaceBetween: 10 }, // Configuração para >=480px
               }}
               slidesPerView={2} // Configuração padrão (aplicada abaixo de 480px)
-              spaceBetween={10} // Espaçamento padrão para telas menores
+              spaceBetween={10}
             >
               {/* Duplicando os slides manualmente */}
               {[...carouselItems, ...carouselItems].map(

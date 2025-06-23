@@ -264,7 +264,6 @@
   font-size: 24px;
   line-height: 18px;
   color: #ededed;
-  /* margin: 20px auto; */
   border: none;
   cursor: pointer;
 }
@@ -278,10 +277,8 @@
 form .buttons {
   display: flex;
   flex-direction: row;
-  /* width: 90%; */
   justify-content: center;
   align-items: center;
-  /* padding-left: 150px; */
 }
 
 .count {

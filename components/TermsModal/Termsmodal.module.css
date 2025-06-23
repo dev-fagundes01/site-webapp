@@ -13,9 +13,8 @@
 }
 
 .disabled {
-    opacity: 0.5; /* Opacidade reduzida para indicar que está desabilitado */
-    cursor: not-allowed !important; /* Cursor de 'não permitido' */
-    /* Outros estilos visuais para indicar desabilitado, como cor de fundo ou borda */
+    opacity: 0.5;
+    cursor: not-allowed !important;
 }
 
 .modaltermsText{
